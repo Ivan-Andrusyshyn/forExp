@@ -52,6 +52,7 @@ input {
   font-size: 12px;
   padding-left: 10px;
   transition: 300ms  border linear;
+  color: black;
   cursor: pointer;
 height: 20px;
 outline: none;
