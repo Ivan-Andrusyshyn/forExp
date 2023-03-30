@@ -1,0 +1,145 @@
+h1 {
+  margin-left: 20px;
+  margin: 0;
+  text-align: center;
+}
+h2 {
+  margin: 0;
+  text-align: center;
+}
+img {
+  padding-left: 10px;
+}
+ul {
+  max-width: 320px;
+  margin-right: 0;
+  text-decoration: none;
+}
+li {
+  padding-left: 0;
+  list-style: none;
+}
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+input {
+  padding: 0 5px;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid green;
+  font-size: 14px;
+  background-color: rgba(146, 255, 127, 0.264);
+}
+button {
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 14px;
+  border: 2px solid green;
+  background-color: rgba(146, 255, 127, 0.552);
+}
+/* ==========================TOMER */
+.timer_list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  gap: 30px;
+}
+.timer_item {
+  font-size: 28px;
+  font-weight: bold;
+}
+.container_timer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 500px;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.x {
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+/* ================REST API===fetch */
+.container_fetch {
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  background-color: rgba(165, 42, 42, 0.156);
+}
+/* ==========weather=============== */
+.weather_div {
+  padding: 10px;
+  width: 400px;
+  text-align: center;
+}
+
+/* hw================== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+#search-box {
+  font: inherit;
+  padding: 8px;
+  max-width: 320px;
+  margin-bottom: 16px;
+}
+
+svg {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+p {
+  font-size: 14px;
+  font-weight: bold;
+}
+.item {
+  transition-property: background-color;
+  transition-duration: 250ms;
+  width: 300px;
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.item:hover {
+  background-color: rgba(0, 255, 255, 0.395);
+}
+h1 {
+  text-align: left;
+  font-size: 20px;
+}
+.div_wrap {
+  margin: 0 auto;
+  
+}
