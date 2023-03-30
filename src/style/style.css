@@ -2,7 +2,7 @@ h1 {
   margin-left: 20px;
   margin: 0;
   text-align: center;
-}
+  padding-left: 20px}
 h2 {
   margin: 0;
   text-align: center;
@@ -14,6 +14,7 @@ ul {
   max-width: 320px;
   margin-right: 0;
   text-decoration: none;
+  padding-left: 20px;
 }
 li {
   padding-left: 0;
@@ -25,14 +26,39 @@ form {
   flex-direction: column;
   gap: 20px;
 }
+.lable-footer {
+  transition: 300ms  linear;
+  transition-property: transform, color;
+text-transform: uppercase;
+font-weight: 600;
+font-size: 11px;
+margin-bottom: 8px;
+line-height: calc(15 / 11);
+letter-spacing: 0.1em;
+color: #9DA4BD66;
+position: absolute;
+top: -8px;
+left: 0;
+}
+.input-footer:focus {
+  color: #ffffff;
+  transform: translateY(-12px);
+}
+.input-footer:hover {
+  color: #ffffff;
+}
 input {
-  padding: 0 5px;
-  width: 150px;
-  height: 30px;
-  border-radius: 10px;
-  border: 2px solid green;
-  font-size: 14px;
-  background-color: rgba(146, 255, 127, 0.264);
+  line-height: calc(14/12);
+  font-size: 12px;
+  padding-left: 10px;
+  transition: 300ms  border linear;
+  cursor: pointer;
+height: 20px;
+outline: none;
+width: 100%;
+border: none;
+background-color: transparent;
+border-bottom: 1px solid #9DA4BD66 ;
 }
 button {
   cursor: pointer;
@@ -131,6 +157,20 @@ p {
   justify-content: start;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
+}
+.wrapper{
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  padding-left: 30px;
+}
+.wrapper >label{
+  color: rgba(255, 0, 0, 0.59);
+  font-weight: bold;
+}
+.wrapper>input:focus{
+  border-bottom: 1px solid wheat;
 }
 .item:hover {
   background-color: rgba(0, 255, 255, 0.395);
